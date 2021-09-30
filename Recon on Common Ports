@@ -17,6 +17,7 @@ SSH Enumeration - Port 22:
 *SMTP Enumeration - Port 25,465,587:
   - Open Relay attack
   - CVE
+  - User Enum
  
 *DNS Enumeration - Port 53:
   - Zone Transfer (`dig axfr @<DNS_IP>` #zone transfer without domain, `dig axfr @<DNS_IP> <DOMAIN>` #zone transfer guessing the domain)
